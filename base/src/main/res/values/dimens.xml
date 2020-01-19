@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTextSize">14.5sp</dimen>
+    <dimen name="subTitleTextSize">14.5sp</dimen>
+    <dimen name="toolbarTextSize">16sp</dimen>
+</resources>

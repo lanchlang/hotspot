@@ -1,0 +1,86 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+android {
+    compileSdkVersion Config.compileSdkVersion
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.dev.hotspot"
+        minSdkVersion Config.minSdkVersion
+        targetSdkVersion Config.targetSdkVersion
+        versionCode 1
+        versionName Config.generateDebugVersionName()
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation Deps.kotlin_stdlib
+    implementation Deps.kotlin_coroutines
+    implementation Deps.kotlin_coroutines_android
+    testImplementation Deps.kotlin_coroutines_test
+    implementation Deps.androidx_appcompat
+    implementation Deps.androidx_constraintlayout
+    implementation Deps.androidx_coordinatorlayout
+    implementation Deps.androidx_legacy
+    implementation Deps.androidx_biometric
+    implementation Deps.androidx_paging
+    implementation Deps.androidx_preference
+    implementation Deps.androidx_fragment
+    implementation Deps.androidx_navigation_fragment
+    implementation Deps.androidx_navigation_ui
+    implementation Deps.androidx_recyclerview
+    implementation Deps.androidx_lifecycle_livedata
+    implementation Deps.androidx_lifecycle_runtime
+    implementation Deps.androidx_lifecycle_viewmodel
+    implementation Deps.androidx_lifecycle_extensions
+    implementation Deps.androidx_core
+    implementation Deps.androidx_core_ktx
+    implementation Deps.androidx_transition
+    implementation Deps.androidx_work_ktx
+    implementation Deps.google_material
+    implementation CustomDeps.dagger
+    kapt CustomDeps.dagger_compiler
+    //retrofit2
+    implementation CustomDeps.retrofit2
+    implementation CustomDeps.retrofit2_gson_converter
+    implementation CustomDeps.okhttp
+    implementation CustomDeps.okhttp_logging_interceptor
+    implementation CustomDeps.okhttp_dnsoverhttps
+
+    //state
+    implementation CustomDeps.android_state
+    kapt CustomDeps.android_state_compiler
+    //带有阴影的图片
+    implementation CustomDeps.elevationimageview
+    //popup
+    implementation CustomDeps.base_popup
+    implementation CustomDeps.base_popup_androidx
+
+    implementation CustomDeps.browser
+    implementation CustomDeps.switchbutton
+    implementation CustomDeps.gson
+
+    implementation CustomDeps.immersionbar
+    implementation CustomDeps.immersionbar_components
+    implementation CustomDeps.immersionbar_ktx
+    implementation project(':base')
+    testImplementation Deps.androidx_junit
+    androidTestImplementation Deps.espresso_core, {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+}

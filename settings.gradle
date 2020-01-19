@@ -1,0 +1,2 @@
+include ':app', ':buildSrc', ':base'
+rootProject.name='HotSpot'

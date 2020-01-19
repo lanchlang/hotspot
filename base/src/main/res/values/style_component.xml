@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<style name="title">
+		<item name="android:textColor">@color/textColorTitle</item>
+		<item name="android:textSize">@dimen/titleTextSize</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name="subTitle">
+		<item name="android:textColor">@color/textColorSubTitle</item>
+		<item name="android:textSize">@dimen/subTitleTextSize</item>
+		<item name="android:textStyle">normal</item>
+	</style>
+	<style name="toolbar">
+		<item name="android:textColor">@color/textColorTitle</item>
+		<item name="android:textSize">@dimen/toolbarTextSize</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <style name="customPreference" parent="Preference.Material">
+        <item name="android:layout">@layout/pref_custom_item</item>
+    </style>
+    <style name="customPreferenceTheme" parent="@style/PreferenceThemeOverlay">
+        <!-- 自定义PreferenceFragment的Layout-->
+        <item name="android:layout">@layout/fragment_preference</item>
+        <item name="preferenceStyle">@style/customPreference</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="preferenceTheme">@style/customPreferenceTheme</item>
+    </style>
+</resources>

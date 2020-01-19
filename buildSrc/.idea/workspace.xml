@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="043fb702-7ce8-47c9-a017-b46eba740bbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../base/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/androidTest/java/com/dev/base/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/base/BackHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/base/BaseActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/base/BaseApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/base/BaseDaggerActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/base/BaseFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/base/BasePreferenceFragmentCompat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/base/BaseViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/base/SimplePreferenceFragmentCompat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/di/placeholder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/di/viewmodel/ViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/di/viewmodel/ViewModelKey.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/extensions/Activity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/extensions/Context.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/extensions/Drawable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/extensions/Fragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/extensions/Gson.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/extensions/Long.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/extensions/String.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/extensions/View.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/utils/DebugToggle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/utils/logger.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/RoundRectOutlineProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/lifecycle/LifecycleAwareFeature.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/lifecycle/ViewBoundFeatureWrapper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/outboundlistener/CoordinatorLayoutWithOutBoundListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/outboundlistener/OutBoundClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/preferences/CustomPreference.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/preferences/SingleSelectItemPreference.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/recyclerview/GridSpacingItemDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/recyclerview/LinearSpacingItemDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/recyclerview/RecyclerViewSetupHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/recyclerview/RecyclerviewHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/recyclerview/RvAdapterBuilder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/recyclerview/SimpleItemTouchCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/recyclerview/StagSpacingItemDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/java/com/dev/base/views/recyclerview/TouchCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/anim/holder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/drawable/ic_back_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/drawable/ic_check_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/drawable/ic_check_disable_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/drawable/ic_state_check_box_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/layout/fragment_preference.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/layout/pref_custom_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/layout/pref_single_select_check_box_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/values/style.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/main/res/values/style_component.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/src/test/java/com/dev/base/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CustomDependencies.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/androidTest/java/com/dev/movie/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/activities/main/MainViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/activities/main/MovieActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/fragments/home/HomeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/fragments/home/HomeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/fragments/home/features/SearchBarFeature.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/fragments/home/helper/MenuPopupHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/fragments/me/MeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/fragments/me/MeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/fragments/notification/NotificationFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/fragments/notification/NotificationViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/fragments/search/SearchFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/fragments/search/SearchViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/bloc/fragments/setting/SettingFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/di/ActivityComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/di/ActivityModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/di/DatabaseModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/di/NetworkModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/di/ViewModelModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/java/com/dev/movie/extensions/fragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/navigation/main_nav.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/main/res/xml/preferences_setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie/src/test/java/com/dev/movie/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/androidTest/java/com/dev/reader/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/java/com/dev/reader/bloc/activities/main/MainViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/java/com/dev/reader/bloc/activities/main/ReaderActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/java/com/dev/reader/di/ApplicationComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/java/com/dev/reader/di/ApplicationModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/java/com/dev/reader/di/DatabaseModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/java/com/dev/reader/di/NetworkModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/java/com/dev/reader/di/ViewModelModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/navigation/main_nav.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reader/src/test/java/com/dev/reader/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/org/mozilla/fenix/components/metrics/ActivationPing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/org/mozilla/fenix/components/metrics/ActivationPing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dependencies.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dependencies.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="D:/AndroidSDK" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="043fb702-7ce8-47c9-a017-b46eba740bbf" name="Default Changelist" comment="" />
+      <created>1579077489484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579077489484</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3297587" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.3286119" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+</project>
